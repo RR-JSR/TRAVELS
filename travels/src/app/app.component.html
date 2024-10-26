@@ -1,0 +1,47 @@
+  <div class="body">
+    <div id="header_backgroung">
+      <header id="main_header">
+        <div class="container">
+          <h1>Travel</h1>
+        </div>
+      </header>
+      <nav id="navbar">
+        <div class="container">
+          <ul>
+            <li><button id="home" (click)="showhomepageview()" >HOME</button></li>
+            <li><button id="about" (click)="showaboutpageview()">ABOUT</button></li>
+            <li><button id="services" (click)="showservicespageview()">SERVICES</button></li>
+            <li><button id="contact" (click)="showcontactpageview()">CONTACT</button></li>
+            <li><button id="signup" (click)="showsignuppageview()">SIGN UP</button></li>
+            <li><button id="login" (click)="showloginpageview()">LOGIN</button></li>
+          </ul>
+        </div>
+        <hr id="headerline">
+      </nav>
+      
+    </div>
+    <div id="leftsidebar"></div>
+    <div id="rightsidebar"></div>
+    <div *ngIf="homepageview">
+      <app-homepage></app-homepage>  
+    </div>
+    <div *ngIf="aboutpageview">
+      <app-aboutpage></app-aboutpage>  
+    </div>
+    <div *ngIf="servicespageview">
+      <app-servicespage></app-servicespage>  
+    </div>
+    <div *ngIf="contactpageview">
+      <app-contactpage></app-contactpage>  
+    </div>
+    <div *ngIf="loginpageview">
+      <app-loginpage (childEvent)="onChildEvent()"></app-loginpage> 
+    </div>
+    <div *ngIf="signuppageview">
+      <app-signuppage></app-signuppage>  
+    </div>    
+    <footer id="main_footer">
+      <hr id="headerline">
+      <label>copyright &copy;2024 Travel</label><br><label>Created by Rahul Kumar Singh</label>
+    </footer>
+  </div>

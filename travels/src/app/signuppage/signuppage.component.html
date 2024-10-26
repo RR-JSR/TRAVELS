@@ -1,0 +1,52 @@
+<HTML>
+        <div><br><br><br><br><br></div>
+        <div id="loginbackground">
+                <div class="container">
+                        <section id="main">
+                                <br>
+                                <div id="labelspacing">
+                                <label id="enterlable">Your Id </label><input type="text" id="idtextbox" #idValue [value]="count" readonly><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your First Name</label><input type="text" id="fnametextbox" #fnameValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Last Name</label><input type="text" id="lnametextbox" #lnameValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Password</label><input type="text" id="passtextbox" #psdValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Phone no</label><input type="text" id="phonetextbox" #phoneValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Age</label><input type="text" id="agetextbox" #ageValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Gender</label><input type="text" id="gendertextbox" #genderValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Email</label><input type="text" id="emailtextbox" #emailValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <label id="enterlable">Enter your Profession</label><input type="text" id="professiontextbox" #professionValue><br>
+                                </div>
+                                
+                                <div id="labelspacing">
+                                <button (click)="SavePersonalDetails(idValue.value,fnameValue.value,lnameValue.value,psdValue.value,phoneValue.value,ageValue.value,genderValue.value,emailValue.value,professionValue.value)" id="submitbutton">SIGNUP</button>
+                                </div>
+                        
+                        </section>
+                        <aside id="sidebar">
+                        </aside>
+                </div>
+        </div>
+</HTML>

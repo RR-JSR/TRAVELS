@@ -1,0 +1,77 @@
+<div><br><br><br><br></div>
+<div id="aboutbackground">
+    <div><br>
+        <h1>LET ME TELL YOU SOMETHING ABOUT ME</h1>    
+        <div id="container1"><button class="infobutton" (click)="school()">SCHOOL</button></div>
+        <div id="container2"><button class="infobutton" (click)="skills()">SKILLS</button></div> 
+        <div id="container3"><button class="infobutton" (click)="college()">COLLEGE</button></div>
+        <div id="container4"><button class="infobutton" (click)="internship()">INTERNSHIP</button></div>
+        <div id="container5"><button class="infobutton" (click)="jobs()">JOBS</button></div>
+        <div id="container6"><button class="infobutton" (click)="projets()">PROJECTS</button></div>
+    </div>
+    <div *ngIf="showschool">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">SCHOOL</label>
+            <div class="list">
+                <ol>
+                    <li>10<sup>th</sup> class from Oxford Public School, Ranchi, Jharkhand.</li>
+                    <li>12<sup>th</sup> class from Oxford Public School, Ranchi, Jharkhand.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="showcollege">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">COLLEGE</label>
+            <div class="list">
+                <ol>
+                    <li>Degree in BE-SCE from chandigarh university, Mohali, Punjab.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="showjobs">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">JOBS</label>
+            <div class="list">
+                <ol>
+                    <li>Got campus placement in NTT DATA as a cloud engineer, Hyderabad. </li>
+                    <li>Working as Digital Solution Consultant Sr. Analyst in NTT DATA. </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="showcirtificate">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">Technical Skills</label>
+            <div class="list">
+                <ol>
+                    <li>Active Skills - C-Sharp, Angular, JavaScript, SQL, JAVA, SAP-BODS, SAP</li>
+                    <li>Passive Skills – Python, C, C++, Snowflake, Matillion, Git, GitHub</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="showinternship">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">INTERNSHIP</label>
+            <div class="list">
+                <ol>
+                    <li>AI Developer, Highradius Technologies </li>
+                    <li>Digital Marketing Executive, I Digital Hub </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="showprojets">
+        <div class="aboutcontainer">
+            <br><label class="headlabel">PROJECTS</label>
+            <div class="list">
+                <ol>
+                    <li>Created a Simple Web-based application for Travel bookings.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,81 @@
+<hr id="headerline">
+<div id="bookingbackground">
+    <div id="container">
+        <section id="main">
+            <form>
+                <div id="fillform">
+                    <label id="fillformid">Please Fill The Details</label>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Trip ID</label>
+                    <input type="text" id="tripidid" [value]="tripIdcount" readonly #tripIdValue>
+                </div>
+                <div class="inputtext"> 
+                    <label class="inputdisplaytext">First Name</label>
+                    <input type="text" id="nameid" [value]="name" readonly placeholder="Please Login" #fnameValue>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">ID</label>
+                    <input type="text" id="idid"[value]="id" readonly #idValue>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Country</label>
+                    <select name="country" id="countryid" #countryIdValue required>
+                        <option *ngFor="let countryloop of countryList" [value]="countryloop.countryId" >{{countryloop.countryName}}</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">City</label>
+                    <select name="city" id="cityid" [(ngModel)]="selectedCityId" required (change)="calculateEstimatedCost()" #cityIdValue>
+                        <option *ngFor="let cityloop of cityList" [value]="cityloop.cityId" >{{cityloop.cityName}}</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">No Of Days</label>
+                    <input type="text" id="nodid" required #noOfDaysValue>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">No Of Persons</label>
+                    <input type="text" id="nopid" required #noOfPersonValue>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Food Choise</label>
+                    <select name="food" id="foodid" required #foodChoiseValue>
+                        <option value="VEG">VEG</option>
+                        <option value="NON VEG">NON VEG</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Currency</label>
+                    <select name="currency" id="currencyid" required #currencyIdValue>
+                        <option *ngFor="let currencyloop of currencyList" [value]="currencyloop.currencyId" >{{currencyloop.currencyName}}</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Estimated Cost</label>
+                    <input type="text" id="costid" [value]="estimatedccost" readonly #estimatedCostValue>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Discount</label>
+                    <select name="discount" id="discountid" required [(ngModel)]="selectedDiscountId" (change)="calculateTotalCost()" #discountValue>
+                        <option *ngFor="let discountloop of discountList" [value]="discountloop.discountId" >{{discountloop.discountName}}</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label class="inputdisplaytext">Total Cost</label>
+                    <input type="text" id="tcostid" readonly [value]="totalcost" #totalCostValue>
+                </div>
+                <div id="button"><button (click)="SaveTripDetails(
+                    tripIdValue.value,fnameValue.value,idValue.value,countryIdValue.value,cityIdValue.value,noOfDaysValue.value,
+                    noOfPersonValue.value,foodChoiseValue.value,currencyIdValue.value,estimatedCostValue.value,discountValue.value,
+                    totalCostValue.value)
+                    " id="buttonid">SUBMIT</button></div>
+            </form>
+        </section>
+        <aside id="sidebar"></aside>
+    </div>
+</div>
+
+
+
+

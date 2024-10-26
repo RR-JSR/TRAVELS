@@ -1,0 +1,16 @@
+<html>
+    <div><br><br><br><br><br></div>
+    <div id="loginbackground">
+        <div class="container">
+            <section id="main">
+                <br><br><br><br><br>
+                <label id="enterlable">Enter your ID</label><input type="text" id="idtextbox" #text1><br><br><br>
+                <label id="enterlable">Enter your Name</label><input type="text" id="nametextbox" #text2><br><br><br>
+                <label id="enterlable">Enter your Password</label><input type="text" id="passtextbox" #text3><br><br><br>
+                <button (click)="CheckLoginDetail(text2.value,text1.value,text3.value)" id="submitbutton">Login</button>
+            </section>
+            <aside id="sidebar">
+            </aside>
+        </div>
+    </div>
+</html>

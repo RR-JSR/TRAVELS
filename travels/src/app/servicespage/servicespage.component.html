@@ -1,0 +1,15 @@
+<div><br><br><br><br><br></div>
+<div id="servicebackground">
+    <br><br><br><br><br><br><label id="startlabel">LETS PLAN YOUR AMAZING TRIP</label>
+    <div>
+        <button id="startbutton" (click)="showbookingpage()">Let's start</button>
+        <button id="lastbutton" (click)="showpastbookingpage()">Last Trip</button>
+    </div>
+</div>
+<div *ngIf="bookingpage">
+<app-bookingpage (childEvent)="onChildEvent()"></app-bookingpage>
+</div>
+<div *ngIf="pastbookingpage">
+    <app-pastbookingpage ></app-pastbookingpage>
+</div>
+ 

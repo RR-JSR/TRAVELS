@@ -1,0 +1,74 @@
+<hr id="headerline">
+<div id="pastbookingbackground">
+    <div id="enterdetailsid">
+        <label id="enterdetailslable">Enter Your Trip ID</label><input type="text" id="enterdetailtextid" #textBox1>
+    </div>
+    <div id="enterdetailsid">
+        <button id="detailsbutton" (click)="showdetails(textBox1.value)">Search</button>
+        <button id="detailsbutton" (click)="hidedetails()">Clear</button>
+    </div> 
+    <div *ngIf="show">
+        <div id="container"> 
+            <section id="main">
+                <form>
+                    <div id="fillform">  
+                        <label id="fillformid">Please Find The Details</label>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Trip ID</label>
+                        <input type="text" id="tripidid" [value]="lastTripData.tripId"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">First Name</label>
+                        <input type="text" id="nameid" [value]="lastTripData.fname"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">ID</label>
+                        <input type="text" id="idid" [value]="lastTripData.id"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Country</label>
+                        <input type="text" id="countryid" [value]="country"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">City</label>
+                        <input type="text" id="cityid" [value]="city"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">No Of Days</label>
+                        <input type="text" id="nodid" [value]="lastTripData.noOfDays"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">No Of Persons</label>
+                        <input type="text" id="nopid" [value]="lastTripData.totalPersons"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Food Choise</label>
+                        <input type="text" id="foodid" [value]="lastTripData.foodChoice"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Currency</label>
+                        <input type="text" id="currencyid" [value]="currecny"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Estimated Cost</label>
+                        <input type="text" id="costid" [value]="lastTripData.estimatedCost"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Discount</label>
+                        <input type="text" id="discountid" [value]="discount"  readonly>
+                    </div>
+                    <div class="inputtext">
+                        <label class="inputdisplaytext">Total Cost</label>
+                        <input type="text" id="tcostid" [value]="lastTripData.totalCost"  readonly>
+                    </div>
+                </form>
+            </section>
+            <aside id="sidebar"></aside><br><br><br><br>
+        </div>
+    </div>
+</div> 
+
+
+
+

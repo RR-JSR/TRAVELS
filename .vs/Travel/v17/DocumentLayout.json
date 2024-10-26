@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rahul\\Desktop\\C\\Travel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\controllers\\tripdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\controllers\\tripdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\handler\\tripdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\handler\\tripdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\interfacehandler\\itripdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\interfacehandler\\itripdetailshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\models\\tripdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\models\\tripdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\database\\traveldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\database\\traveldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|c:\\users\\rahul\\desktop\\c\\travel\\travel\\models\\maintripdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09A07-FB85-4CBF-AD5F-AD84EA3F0CB7}|Travel\\Travel.csproj|solutionrelative:travel\\models\\maintripdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Controllers\\TripDetailsController.cs",
+              "RelativeDocumentMoniker": "Travel\\Controllers\\TripDetailsController.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Controllers\\TripDetailsController.cs",
+              "RelativeToolTip": "Travel\\Controllers\\TripDetailsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:53:52.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TripDetails.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Models\\TripDetails.cs",
+              "RelativeDocumentMoniker": "Travel\\Models\\TripDetails.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Models\\TripDetails.cs",
+              "RelativeToolTip": "Travel\\Models\\TripDetails.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:49:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITripDetailsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\InterfaceHandler\\ITripDetailsHandler.cs",
+              "RelativeDocumentMoniker": "Travel\\InterfaceHandler\\ITripDetailsHandler.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\InterfaceHandler\\ITripDetailsHandler.cs",
+              "RelativeToolTip": "Travel\\InterfaceHandler\\ITripDetailsHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:14:07.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainTripDetails.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Models\\MainTripDetails.cs",
+              "RelativeDocumentMoniker": "Travel\\Models\\MainTripDetails.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Models\\MainTripDetails.cs",
+              "RelativeToolTip": "Travel\\Models\\MainTripDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:11:33.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TripDetailsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Handler\\TripDetailsHandler.cs",
+              "RelativeDocumentMoniker": "Travel\\Handler\\TripDetailsHandler.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Handler\\TripDetailsHandler.cs",
+              "RelativeToolTip": "Travel\\Handler\\TripDetailsHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIAwwBsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:11:05.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TravelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Database\\TravelDbContext.cs",
+              "RelativeDocumentMoniker": "Travel\\Database\\TravelDbContext.cs",
+              "ToolTip": "C:\\Users\\rahul\\Desktop\\C\\Travel\\Travel\\Database\\TravelDbContext.cs",
+              "RelativeToolTip": "Travel\\Database\\TravelDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAzwBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:10:13.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
